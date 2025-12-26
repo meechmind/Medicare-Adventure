@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1400" height="554" alt="Maryland Medicare Adventure Banner" src="images/Medicare Adventure Banner.svg" />
+<img width="1450" height="574" alt="Maryland Medicare Adventure Banner" src="images/Medicare Adventure Banner.svg" />
 </div>
 
 ## The "Game"
