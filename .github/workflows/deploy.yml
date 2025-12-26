@@ -33,6 +33,7 @@ jobs:
           path: './dist' # Vite builds into the 'dist' folder
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
