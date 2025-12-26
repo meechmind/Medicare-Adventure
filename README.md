@@ -6,13 +6,7 @@
 
 An interactive game to learn how to navigate Medicare. Select a scenario, choose a path, learn the outcomes. Reveal "Key Takeaways" to learn the Medicare rules that impact the outcome.
 
-## Run and deploy 
-
-### From AI Studio
-
-View app in AI Studio: https://ai.studio/apps/drive/1ZfqvlSFGz65vBKzQuN8Q1kPY3rs1nwXq
-
-### Run Locally
+## Run Locally
 
 **Prerequisites:**  Node.js
 
