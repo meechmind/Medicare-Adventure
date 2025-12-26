@@ -2,7 +2,7 @@
 <img width="1450" height="574" alt="Maryland Medicare Adventure Banner" src="images/Medicare Adventure Banner.svg" />
 </div>
 
-## The "Game"
+## Introduction
 
 An interactive game to learn how to navigate Medicare. Select a scenario, choose a path, learn the outcomes. Reveal "Key Takeaways" to learn the Medicare rules that impact the outcome.
 
