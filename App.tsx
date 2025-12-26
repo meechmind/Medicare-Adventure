@@ -187,9 +187,9 @@ const OutcomeView: React.FC<{
     const nextScenario = currentIndex !== -1 && currentIndex < scenarios.length - 1 ? scenarios[currentIndex + 1] : null;
 
     const getResultColor = (result: string) => {
-        if (result.includes("Jackpot!") || result.includes("Smart 'Goldilocks' Move!")) return "text-green-600";
-        if (result.includes("Coverage Loss!") || result.includes("Risk of Losing Coverage")) return "text-red-600";
-        if (result.includes("Gap in Coverage!")) return "text-amber-600";
+        if (result.includes("Jackpot!") || result.includes("smart 'Goldilocks' move!")) return "text-green-600";
+        if (result.includes("Coverage loss!") || result.includes("Risk of losing coverage")) return "text-red-600";
+        if (result.includes("Gap in coverage!")) return "text-amber-600";
         return "text-[#273469]";
     }
 
