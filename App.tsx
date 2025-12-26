@@ -232,9 +232,6 @@ const OutcomeView: React.FC<{
           
             {/* Explanation Card*/}
             <div className="bg-slate-50 border border-slate-200 rounded-xl overflow-hidden mb-8">
-                <div className="p-4 md:p-6 border-b border-slate-200">
-                    <h4 className={`${sectionHeaderClass} font-bold text-[#273469]`}>The Explanation</h4>
-                </div>
                 <div className="p-4 md:p-6">
                     <p className={`${bodyClass} text-gray-900`}>
                         {outcome.clarification}
