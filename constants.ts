@@ -14,7 +14,7 @@ export const scenarios: Scenario[] = [
         title: "Delay Medicare Enrollment Completely",
         subtitle: "I'll stick with just my work plan.",
         outcome: {
-          result: "Not Bad, but You Left 'Free' on the Table.",
+          result: "Not bad, but you left 'free' on the table.",
           clarification: "Since your employer has more than 20 employees, your employer coverage is primary. You aren't penalized for delaying, but you missed out on Part A, which is usually premium-free and could have acted as secondary coverage for hospital stays.",
           keyTakeaways: [
             "<strong>The >20 Rule:</strong> Because the employer has 20+ employees, the group health plan pays first. Martha can delay Part B without penalty.",
@@ -30,7 +30,7 @@ export const scenarios: Scenario[] = [
         title: "Enroll in Part A, Delay Part B",
         subtitle: "Take the free stuff, skip the bill.",
         outcome: {
-          result: "The Smart 'Goldilocks' Move!",
+          result: "The smart 'Goldilocks' move!",
           clarification: "Perfect. You took Part A because it's free (secondary coverage for hospital stays) but delayed Part B to save the premium ($202.90/month). Since your employer has >20 employees, they pay primary anyway.",
           keyTakeaways: [
             "<strong>The >20 Rule:</strong> Employers with 20+ employees have primary coverage, making it safe to delay Part B.",
@@ -45,7 +45,7 @@ export const scenarios: Scenario[] = [
         title: "Enroll in Medicare Parts A & B",
         subtitle: "Isn't it required?",
         outcome: {
-          result: "Safe, but You're Paying for Redundancy.",
+          result: "Safe, but you're paying for redundancy.",
           clarification: "You are fully covered, but since your employer has >20 employees, they pay primary and Medicare is only secondary. You're paying the Part B premium ($202.90/mo) for coverage that might not pay out much after your work insurance pays.",
           keyTakeaways: [
             "<strong>Cost vs. Benefit:</strong> It's usually not cost-effective to pay Part B premiums if you have good large-employer coverage.",
@@ -69,12 +69,12 @@ export const scenarios: Scenario[] = [
         title: "Choose Medicare Advantage (HMO)",
         subtitle: "Low premium, all-in-one.",
         outcome: {
-          result: "Low Premiums, but Network Restrictions.",
+          result: "Low premiums, but network restrictions.",
           clarification: "You save on monthly premiums, but you must use the plan's network. Out-of-network care is generally not covered. Good for those who don't mind staying in-network.",
           keyTakeaways: [
-            "<strong>MA Trade-off:</strong> You trade lower upfront costs for network restrictions and potential copays. It often requires prior authorization for services and a referral to see a specialist.",
+            "<strong>MA Trade-off:</strong> You trade lower upfront costs for network restrictions and potential copays. Medicare Advantage often requires prior authorization for services and a referral to see a specialist.",
             "<strong>Original Medicare's Flexibility:</strong> With Original Medicare, you could see any doctor that accepts Medicare nationwide, without referrals.",
-            "<strong>No Medigap for MA:</strong> You cannot buy a Medigap plan to cover Medicare Advantage costs like copays or coinsurance.",
+            "<strong>No Medigap for MA:</strong> You cannot buy a Medigap policy to cover Medicare Advantage costs like copays or coinsurance.",
           ],
         },
       },
@@ -83,24 +83,24 @@ export const scenarios: Scenario[] = [
         title: "Choose Original Medicare + Part D",
         subtitle: "Freedom of choice.",
         outcome: {
-          result: "Freedom of Choice, but Predictability Issues.",
+          result: "Freedom of choice, but predictability issues.",
           clarification: "You can see any doctor that takes Medicare, but you are liable for the 20% coinsurance on Medicare services with no annual cap.",
           keyTakeaways: [
-            "<strong>The 20% Risk:</strong> Without a Medigap plan, an expensive surgery or long hospital stay could cost you thousands in coinsurance.",
+            "<strong>The 20% Risk:</strong> Without a Medigap policy, an expensive surgery or long hospital stay could cost you thousands in coinsurance.",
             "<strong>Flexibility:</strong> Original Medicare typically doesn’t require prior authorization for services or a referral to see a specialist.",
-            "<strong>The Medigap Solution:</strong> A Medigap plan would cover that 20%, providing a safety net against unpredictable, high costs.",
+            "<strong>The Medigap Solution:</strong> For an additional monthly premium, a Medigap policy would cover that 20%, providing a safety net against unpredictable, high costs.",
           ],
         },
       },
       {
         id: 3,
         title: "Original Medicare + Part D + Medigap",
-        subtitle: "Max coverage, higher price.",
+        subtitle: "most coverage, higher price.",
         outcome: {
-          result: "Maximum Flexibility & Predictable Costs, but High Monthly Payment.",
+          result: "Maximum flexibility & predictable costs, but high monthly payment.",
           clarification: "You have the 'Cadillac' coverage. You can see any doctor, and Medigap pays your 20% coinsurance. However, you are paying a significant monthly premium for that Medigap policy on top of your Part B premium.",
           keyTakeaways: [
-            "<strong>Predictability:</strong> Almost zero out-of-pocket costs for doctors/hospitals provides peace of mind.",
+            "<strong>Predictability:</strong> Almost zero for doctors/hospitals provides peace of mind.",
             "<strong>Maryland Birthday Rule:</strong> In Maryland, you can switch Medigap plans around your birthday to a plan of equal or lesser benefits without health questions.",
             "<strong>Cost:</strong> This is the most expensive monthly option for premiums, but the safest for heavy healthcare users or those who want maximum predictability.",
           ],
@@ -110,8 +110,8 @@ export const scenarios: Scenario[] = [
   },
   {
     id: 3,
-    title: "Plan Termination",
-    subtitle: "Part D plan is ending",
+    title: "Part D Panic",
+    subtitle: "Rx plan is ending",
     character: "Sarah",
     intro: "It's late November and Sarah is catching up on her mail. She finds a letter that her Part D plan is ending and won’t be offered next year. What should she do?",
     choices: [
@@ -120,13 +120,13 @@ export const scenarios: Scenario[] = [
         title: "Do Nothing",
         subtitle: "It'll be fine.",
         outcome: {
-          result: "Coverage Loss!",
+          result: "Coverage loss!",
           clarification: "If you do nothing before the end of February, you'll likely lose your drug coverage. While insurance companies may “crosswalk” you into a comparable plan, this is not guaranteed.",
           keyTakeaways: [
             "<strong>Must Act:</strong> Plans don't auto-renew if they are leaving the market. You must actively choose a new plan.",
             "<strong>Special Enrollment Period (SEP):</strong> You have until the end of February to enroll in a plan without penalty, but enrolling before the end of the year ensures no gap in coverage.",
             "<strong>Don't Wait:</strong> Acting promptly ensures coverage starts Jan 1 and avoids paying full price for meds.",
-            "<strong>Did you know?</strong> There's a $2,100 cap on out-of-pocket drug costs. The 'donut hole' is now closed and the coverage gap was eliminated.",
+            "<strong>Did you know?</strong> $2,100 is the most you'll pay for covered drugs in 2026. The 'donut hole' officially closed and the coverage gap was eliminated.",
           ],
         },
       },
@@ -135,12 +135,12 @@ export const scenarios: Scenario[] = [
         title: "Enroll in a New Plan by Dec. 7",
         subtitle: "Rush to enroll.",
         outcome: {
-          result: "Great! You're Set for Jan. 1, but You didn't *Have* to Rush.",
+          result: "Great! You're set for Jan. 1, but you didn't *have* to rush.",
           clarification: "Enrolling now is smart because coverage will seamlessly start Jan 1. However, you had more time to shop than you thought. Since your plan was terminating, you had a Special Enrollment Period (SEP) that lasts through February 28th.",
           keyTakeaways: [
             "<strong>Continuous Coverage:</strong> Enrolling by Dec 7 (the end of Open Enrollment) guarantees no gap in coverage on Jan 1.",
-            "<strong>SEP Knowledge:</strong> Plan non-renewal grants an SEP. You should enroll by the end of Dececember for a January 1 effective date, but you didn’t have to rush to enroll before the end of OEP.",
-            "<strong>Did you know?</strong> There's a $2,100 cap on out-of-pocket drug costs. The 'donut hole' is now closed and the coverage gap was eliminated.",
+            "<strong>SEP Knowledge:</strong> Plan non-renewal grants an SEP. You should enroll by the end of December for a January 1 effective date, but you didn’t have to rush to enroll before the end of OEP.",
+            "<strong>Did you know?</strong> $2,100 is the most you'll pay for covered drugs in 2026. The 'donut hole' is now closed and the coverage gap was eliminated.",
           ],
         },
       },
@@ -149,13 +149,13 @@ export const scenarios: Scenario[] = [
         title: "Deal with it in January",
         subtitle: "I'll figure it out later.",
         outcome: {
-          result: "Gap in Coverage!",
+          result: "Gap in coverage!",
           clarification: "You used your SEP, which is allowed! But because you waited until January to enroll, your new coverage won't start until February 1st. You are uninsured for one month.",
           keyTakeaways: [
             "<strong>Timing Matters:</strong> SEP coverage starts the first of the *following* month you enroll. A January enrollment means a February 1st start.",
             "<strong>No Late Penalties:</strong> Since you had an SEP, you avoid the permanent Part D late enrollment penalty, but you still have to pay full price for drugs in January.",
             "<strong>Best Practice:</strong> To avoid a gap, you should have enrolled by December 31st for a January 1st effective date.",
-            "<strong>Did you know?</strong> There's a $2,100 cap on out-of-pocket drug costs. The 'donut hole' is now closed and the coverage gap was eliminated.",
+            "<strong>Did you know?</strong> $2,100 is the most you'll pay for covered drugs in 2026. The 'donut hole' is now closed and the coverage gap was eliminated.",
           ],
         },
       },
@@ -173,18 +173,18 @@ export const scenarios: Scenario[] = [
         title: "Do Nothing",
         subtitle: "Medicaid coverage will continue",
         outcome: {
-          result: "Risk of Losing Coverage.",
+          result: "Risk of losing coverage.",
           clarification: "Medicaid rules change at 65. You are required to enroll in Medicare Parts A & B to keep getting help. Doing nothing can lead to a loss of benefits.",
           keyTakeaways: [
             "<strong>Medicare is a Must:</strong> Medicare must be primary. To qualify for programs that help with Medicare costs, you must be enrolled in Medicare first.",
             "<strong>Apply for MSP:</strong> After enrolling in Medicare, you should apply for a Medicare Savings Program (like QMB). QMB helps with Medicare costs (premiums, deductibles, etc).",
-            "<strong>Extra Help is Automatic with MSP:</strong> If you get an MSP, you are automatically 'deemed' eligible for Extra Help with drug costs. No separate application is needed.",
+            "<strong>Extra Help is Automatic with MSP:</strong> If you get an MSP, you are automatically 'deemed' eligible for Extra Help with costs for covered drugs. No separate application is needed.",
           ],
         },
       },
       {
         id: 2,
-        title: "Apply for a Medicare Savings Program (MSP)",
+        title: "Apply for Medicare Savings Program (MSP)",
         subtitle: "Help me with premiums.",
         outcome: {
           result: "Jackpot! You get QMB *and* Extra Help!",
@@ -202,7 +202,7 @@ export const scenarios: Scenario[] = [
         title: "Apply for Extra Help",
         subtitle: "Just help me with drugs.",
         outcome: {
-          result: "Partial Win, But You're Losing Money.",
+          result: "Partial win, but you're losing money.",
           clarification: "You got Extra Help for your prescriptions, which is great. However, applying for Extra Help does not automatically enroll you in the Medicare Savings Program (MSP/QMB). You are still paying the Part B premium and the 20% coinsurance for doctors!",
           keyTakeaways: [
             "<strong>Missed Opportunity:</strong> You missed out on QMB, which would have saved you thousands per year in Part B premiums plus all your medical copays.",
