@@ -1,14 +1,18 @@
 <div align="center">
-<img width="1200" height="475" alt="Maryland Medicare Adventure Banner" src="images/Medicare Adventure Banner.svg" />
+<img width="1400" height="554" alt="Maryland Medicare Adventure Banner" src="images/Medicare Adventure Banner.svg" />
 </div>
 
-# Run and deploy your AI Studio app
+## The "Game"
 
-This contains everything you need to run your app locally.
+An interactive game to learn how to navigate Medicare. Select a scenario, choose a path, learn the outcomes. Reveal "Key Takeaways" to learn the Medicare rules that impact the outcome.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZfqvlSFGz65vBKzQuN8Q1kPY3rs1nwXq
+## Run and deploy 
 
-## Run Locally
+### From AI Studio
+
+View app in AI Studio: https://ai.studio/apps/drive/1ZfqvlSFGz65vBKzQuN8Q1kPY3rs1nwXq
+
+### Run Locally
 
 **Prerequisites:**  Node.js
 
