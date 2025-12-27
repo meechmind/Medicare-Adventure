@@ -75,7 +75,7 @@ export const scenarios: Scenario[] = [
             "<strong>MA Trade-off:</strong> You trade lower upfront costs for network restrictions and potential copays. Medicare Advantage often requires prior authorization for services and a referral to see a specialist.",
             "<strong>Original Medicare's Flexibility:</strong> With Original Medicare, you could see any doctor that accepts Medicare nationwide, without referrals.",
             "<strong>No Medigap for MA:</strong> You cannot buy a Medigap policy to cover Medicare Advantage costs like copays or coinsurance.",
-            "<strong>Did you know?:</strong> In Maryland, if you have a Medigap policy, you can switch to a plan of equal or lesser benefits without health questions once a year starting on your birthday and ending 30 days after.",
+            "<strong>Did you know?:</strong> In Maryland, if you have a Medigap policy, you can switch to a plan of equal or lesser benefits without health questions once a year. The enrollment period starts on your birthday and ends 30 days after.",
           ],
         },
       },
@@ -87,24 +87,24 @@ export const scenarios: Scenario[] = [
           result: "Freedom of choice, but predictability issues.",
           clarification: "You can see any doctor that takes Medicare, but you are liable for the 20% coinsurance on Medicare services with no annual cap.",
           keyTakeaways: [
-            "<strong>The 20% Risk:</strong> Without a Medigap policy, an expensive surgery or long hospital stay could cost you thousands in coinsurance.",
             "<strong>Flexibility:</strong> Original Medicare typically doesn’t require prior authorization for services or a referral to see a specialist.",
+            "<strong>The 20% Risk:</strong> Without a Medigap policy, an expensive surgery or long hospital stay could cost you thousands in coinsurance.",
             "<strong>The Medigap Solution:</strong> For an additional monthly premium, a Medigap policy would cover that 20%, providing a safety net against unpredictable, high costs.",
-            "<strong>Birthday Rule:</strong> In Maryland, if you have a Medigap policy, you can switch to a plan of equal or lesser benefits without health questions once a year starting on your birthday and ending 30 days after.",
+            "<strong>Birthday Rule:</strong> In Maryland, if you have a Medigap policy, you can switch to a plan of equal or lesser benefits without health questions once a year. The enrollment period starts on your birthday and ends 30 days after.",
           ],
         },
       },
       {
         id: 3,
         title: "Original Medicare + Part D + Medigap",
-        subtitle: "most coverage, higher price.",
+        subtitle: "Most coverage, higher price.",
         outcome: {
           result: "Maximum flexibility & predictable costs, but high monthly payment.",
           clarification: "You have the 'Cadillac' coverage. You can see any doctor, and Medigap pays your 20% coinsurance. However, you are paying a significant monthly premium for that Medigap policy on top of your Part B premium.",
           keyTakeaways: [
             "<strong>Predictability:</strong> Almost zero for doctors/hospitals provides peace of mind.",
             "<strong>Cost:</strong> This is the most expensive monthly option for premiums, but the safest for heavy healthcare users or those who want maximum predictability.",
-            "<strong>Birthday Rule:</strong> In Maryland, if you have a Medigap policy, you can switch to a plan of equal or lesser benefits without health questions once a year starting on your birthday and ending 30 days after.",
+            "<strong>Birthday Rule:</strong> In Maryland, if you have a Medigap policy, you can switch to a plan of equal or lesser benefits without health questions once a year. The enrollment period starts on your birthday and ends 30 days after.",
           ],
         },
       },
@@ -138,10 +138,10 @@ export const scenarios: Scenario[] = [
         subtitle: "Rush to enroll.",
         outcome: {
           result: "Great! You're set for Jan. 1, but you didn't *have* to rush.",
-          clarification: "Enrolling now is smart because coverage will seamlessly start Jan 1. However, you had more time to shop than you thought. Since your plan was terminating, you had a Special Enrollment Period (SEP) that lasts through February 28th.",
+          clarification: "Enrolling now is smart because coverage will seamlessly start January 1. However, you had more time to shop than you thought. Since your plan was terminating, you had a Special Enrollment Period (SEP) that lasts through February 28th.",
           keyTakeaways: [
-            "<strong>Continuous Coverage:</strong> Enrolling by Dec 7 (the end of Open Enrollment) guarantees no gap in coverage on Jan 1.",
-            "<strong>SEP Knowledge:</strong> Plan non-renewal grants an SEP. You should enroll by the end of December for a January 1 effective date, but you didn’t have to rush to enroll before the end of OEP.",
+            "<strong>Continuous Coverage:</strong> Enrolling by December 7 (the end of Open Enrollment) guarantees no gap in coverage on January 1.",
+            "<strong>SEP Eligible:</strong> Plan non-renewal grants an SEP. You should enroll by the end of December for a January 1 effective date, but you didn’t have to rush to enroll before the end of OEP.",
             "<strong>Did you know?</strong> $2,100 is the most you'll pay for covered drugs in 2026. The 'donut hole' is now closed and the coverage gap was eliminated.",
           ],
         },
@@ -152,7 +152,7 @@ export const scenarios: Scenario[] = [
         subtitle: "I'll figure it out later.",
         outcome: {
           result: "Gap in coverage!",
-          clarification: "You used your SEP, which is allowed! But because you waited until January to enroll, your new coverage won't start until February 1st. You are uninsured for one month.",
+          clarification: "You used your SEP, which is allowed. But since you waited until January to enroll, your new coverage won't start until February 1st. You are uninsured for one month.",
           keyTakeaways: [
             "<strong>Timing Matters:</strong> SEP coverage starts the first of the *following* month you enroll. A January enrollment means a February 1st start.",
             "<strong>No Late Penalties:</strong> Since you had an SEP, you avoid the permanent Part D late enrollment penalty, but you still have to pay full price for drugs in January.",
