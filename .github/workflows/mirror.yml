@@ -10,14 +10,19 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetches all history for mirroring
 
       - name: Mirror to Work Repo
         run: |
           # Configure Git
-          git config --global user.email "your-email@example.com"
+          git config --global user.email "mirror-bot@users.noreply.github.com"
           git config --global user.name "Mirror Bot"
+
+          # Delete the existing .git folder to "forget" all history and re-initalize new repository
+          rm -rf .git
+          git init
+          git add .
+          git commit -m "Deploy latest version of Maryland Medicare Adventure"
+          git branch -M main
           
           # Add the work repo as a remote
           git remote add work https://${{ secrets.WORK_REPO_TOKEN }}@github.com/marylandSHIP/medicare-adventure.git
